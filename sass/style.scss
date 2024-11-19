@@ -1,0 +1,38 @@
+.principal__conteneur {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.principal__article h5 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.principal__article p {
+  font-size: 1rem;
+  color: #555;
+}
+
+// Styles pour la section des boutons de filtrage
+.filtre__bouton {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filtre__bouton button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #3b8834b4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filtre__bouton button:hover {
+  background-color: #365d0c90;
+}
